@@ -1,0 +1,35 @@
+# Build outputs
+/build/
+/cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.dSYM/
+
+# Local editor and temporary files
+/.vscode/
+/.idea/
+*.swp
+*.swo
+~$*
+
+# Operating system metadata
+.DS_Store
+Thumbs.db
+
+# Local credentials
+.env
+.env.*
+!.env.example
